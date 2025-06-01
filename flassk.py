@@ -6,7 +6,7 @@ if (__name__ != "__main__"): # Check if its runing inside `railway host`
     from gevent import monkey 
     monkey.patch_all() # This  cant run in windows cuz its frezzing the apis
     os.environ['PRODUCTION_SERVER'] = 'true'
-    print('PRO server starting....000000004')
+    print('PRO server starting....000000004 man fuck')
 else:
     print('DEV server starting....000000001')
     os.environ['PRODUCTION_SERVER'] = 'false'
